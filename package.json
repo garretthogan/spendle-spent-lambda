@@ -1,11 +1,11 @@
 {
-  "name": "spendle-lambda",
+  "name": "spendle-spent-lambda",
   "version": "1.0.0",
   "description": "A lambda that periodically texts users to update them on their budget progress",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/garretthogan/spendle-lambda.git"
+    "url": "https://github.com/garretthogan/spendle-spent-lambda.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,7 +18,6 @@
   "dependencies": {
     "aws-sdk": "^2.242.1",
     "claudia": "^4.0.0",
-    "moment": "^2.22.1",
-    "twilio": "^3.17.0"
+    "plaid": "^2.5.1"
   }
 }
